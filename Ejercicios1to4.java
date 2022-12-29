@@ -6,10 +6,10 @@ import java.util.*;
 public class Ejercicios1to4 {
 	/* Ejercicio 1
 
-Mostrar por consola los 10 primeros números enteros y los 10 primeros números impares*/
+Mostrar por consola los 10 primeros nï¿½meros enteros y los 10 primeros nï¿½meros impares*/
 
 	public static void main(String[] args) {
-		/*System.out.println("Mostrar por consola los 10 primeros números enteros y los 10 primeros números impares");
+		/*System.out.println("Mostrar por consola los 10 primeros nï¿½meros enteros y los 10 primeros nï¿½meros impares");
 		for (int i = 0; i <= 10; i++) {
 			System.out.println(i);
 			
@@ -46,10 +46,10 @@ orden inverso al que fueron ingresadas.*/
 		/*Ejercicio 3
 
 Leer 10 palabras, luego leer una nueva palabra e indicar 
-si la misma ya había sido ingresada en las 10 primeras.*/
+si la misma ya habï¿½a sido ingresada en las 10 primeras.*/
 		
 /*System.out.println("Leer 10 palabras, luego leer una nueva palabra e indicar \r\n"
-		+ "si la misma ya había sido ingresada en las 10 primeras");
+		+ "si la misma ya habï¿½a sido ingresada en las 10 primeras");
 		
 		String[] palabras = new String[9];
 		
@@ -74,7 +74,7 @@ si la misma ya había sido ingresada en las 10 primeras.*/
 		}*/
 		/*Ejercicio 4
 
-Leer un entero y luego una lista de 20 enteros. Guardar los mayores al número 
+Leer un entero y luego una lista de 20 enteros. Guardar los mayores al nï¿½mero 
 inicial y mostrarlos al final. Usar arrays, no otras colecciones.*/
 		
 		try (Scanner leer = new Scanner(System.in)) {
@@ -90,7 +90,7 @@ inicial y mostrarlos al final. Usar arrays, no otras colecciones.*/
 			System.out.println("Ingrese una lista de 20 enteros");
 			System.out.println("");
 			for (int i = 0; i < 20; i++) {
-				System.out.println("Ingrese la numero "+ (i+1));
+				System.out.println("Ingrese la numero entero "+ (i+1));
 				lista[i]=leer.nextInt();	
 				if (lista[i]> n) {
 					lista2[j]=lista[i];
@@ -99,7 +99,8 @@ inicial y mostrarlos al final. Usar arrays, no otras colecciones.*/
 			}
 			for (int k = 0; k < lista2.length; k++) {
 				if (lista[k]==0) {
-					System.out.println("aaaaaaaaaaa");
+					System.out.println("Hola Mundo");
+					System.out.println("Conio XD");
 				}
 				else {
 					System.out.println(lista2[k]);
@@ -108,6 +109,8 @@ inicial y mostrarlos al final. Usar arrays, no otras colecciones.*/
 
 			}
 		}
+		
+	
 		
 	}
 }
